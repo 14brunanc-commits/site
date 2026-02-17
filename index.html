@@ -70,6 +70,54 @@
 
         </section>
 
+        <section id="habilidades">
+            <h2>habilidades e tecnologias</h2>
+
+
+            <table>
+                <thead>
+                    <tr>
+                    <th>tecnologia</th>
+                    <th>nivel</th>
+                    <th>descricao</th>
+                    </tr>
+                </thead>
+
+
+                <tbody>
+                    <tr>
+                    <td>HTML</td>
+                    <td>iniciante</td>
+                    <td>capaz de construir paginas web com estruturas semanticas e responsivas</td>
+                    </tr>
+                </tbody>
+
+
+                  <tr>
+                    <td>CSS</td>
+                    <td>intermediario</td>
+                    <td>experiencia com flexbox, grid e animacoes css</td>
+                    </tr>
+
+
+                    <td>JavaScript</td>
+                    <td>basico</td>
+                    <td>desenvolvimento de scripts do lado do cliente para interacoes</td>
+                    </tr>
+
+
+
+
+            </table>
+
+
+
+
+        </section>
+
+
+
+
         <footer>
             Direitos reservados a Bruna
 
@@ -79,10 +127,44 @@
 
                 <p>Tem um projeto em mente? Entre em contato.</p>
 
-                <address>
-                    email: <a href="mailto:bruna.nc14@gmail.com">bruna.nc14@gmail.com</a><br>
-                    telefone: <a href="tel:+5548999991111">+5548999991111</a>
-                </address>
+                <form action="">
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="name" name="nome" required><br>
+
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"> <br>
+
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+
+                    <option value="orcamento">Orcamento</option>
+                    <option value="duvida">Duvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+                <br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="50" rows="5" required> </textarea>
+
+
+                <br>
+
+                <input type="checkbox" id="inscricao" name="inscricao">
+                <label for="inscricao">Deseja receber a minha newsletter? Fique por dentro.</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+                <input type="date">
+            
+            </form>
             </section>
 
         </footer>
